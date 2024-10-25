@@ -247,8 +247,10 @@ const saveInventory = debounce(async (resource, newValue) => {
       redirectRoute: `/crafting-list/:id`,
       redirectRouteOptions: {
         params: { id: props.craftList.id },
-        preserveScroll: true
       }
+    },
+    {
+      preserveScroll: true
     })
     
     toast.add({

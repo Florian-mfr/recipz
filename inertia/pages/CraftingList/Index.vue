@@ -206,6 +206,9 @@ const saveInventory = debounce(async (inventoryResource, newValue) => {
       resource: inventoryResource.resource,
       quantity: newValue,
       redirectRoute: '/crafting-list'
+    },
+    {
+      preserveScroll: true
     })
     
     toast.add({
@@ -249,7 +252,9 @@ const confirmDeleteCraftList = (craftList) => {
       severity: 'danger'
     },
     accept: () => {
-      router.delete(`/crafting-list/${craftList.id}`)
+      router.delete(`/crafting-list/${craftList.id}`, {
+        preserveScroll: true
+      })
     },
     reject: () => {
         console.log('reject')
