@@ -1,0 +1,248 @@
+{
+  "_Layout-BiShtRex.js": {
+    "file": "Layout-BiShtRex.js",
+    "name": "Layout",
+    "imports": [
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "__plugin-vue_export-helper-DlAUqK2U.js": {
+    "file": "_plugin-vue_export-helper-DlAUqK2U.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "_lodash-B7kL0Lw1.js": {
+    "file": "lodash-B7kL0Lw1.js",
+    "name": "lodash",
+    "imports": [
+      "inertia/app/app.ts"
+    ]
+  },
+  "inertia/app/app.ts": {
+    "file": "app-0IfQhdzz.js",
+    "name": "app",
+    "src": "inertia/app/app.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "inertia/pages/Auth/Login.vue",
+      "inertia/pages/CraftingList/Dialog.vue",
+      "inertia/pages/CraftingList/Index.vue",
+      "inertia/pages/CraftingList/Show.vue",
+      "inertia/pages/Inventory/Index.vue",
+      "inertia/pages/Items/Create.vue",
+      "inertia/pages/Items/Edit.vue",
+      "inertia/pages/Items/Index.vue",
+      "inertia/pages/Resources/Create.vue",
+      "inertia/pages/Resources/Edit.vue",
+      "inertia/pages/Resources/Index.vue",
+      "inertia/pages/Tes/Index.vue",
+      "inertia/pages/errors/not_found.vue",
+      "inertia/pages/errors/server_error.vue",
+      "inertia/pages/home.vue"
+    ],
+    "css": [
+      "app-BF8TCucF.css"
+    ],
+    "assets": [
+      "primeicons-DMOk5skT.eot",
+      "primeicons-C6QP2o4f.woff2",
+      "primeicons-WjwUDZjB.woff",
+      "primeicons-MpK4pl85.ttf",
+      "primeicons-Dr5RGzOO.svg"
+    ]
+  },
+  "inertia/pages/Auth/Login.vue": {
+    "file": "Login-Bf3uFU5S.js",
+    "name": "Login",
+    "src": "inertia/pages/Auth/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "_Layout-BiShtRex.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/CraftingList/Dialog.vue": {
+    "file": "Dialog-BQ-8YqpJ.js",
+    "name": "Dialog",
+    "src": "inertia/pages/CraftingList/Dialog.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "Dialog-i3rw84Jq.css"
+    ]
+  },
+  "inertia/pages/CraftingList/Index.vue": {
+    "file": "Index-DwwAEaRf.js",
+    "name": "Index",
+    "src": "inertia/pages/CraftingList/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "_lodash-B7kL0Lw1.js",
+      "inertia/pages/CraftingList/Dialog.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "Index-BmaDHvGN.css"
+    ]
+  },
+  "inertia/pages/CraftingList/Show.vue": {
+    "file": "Show-DhS9lb1I.js",
+    "name": "Show",
+    "src": "inertia/pages/CraftingList/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "_lodash-B7kL0Lw1.js",
+      "inertia/pages/CraftingList/Dialog.vue",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "Show-DOsYPBwt.css"
+    ]
+  },
+  "inertia/pages/Inventory/Index.vue": {
+    "file": "Index-B5TbrnMg.js",
+    "name": "Index",
+    "src": "inertia/pages/Inventory/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Items/Create.vue": {
+    "file": "Create-BBTJs_yX.js",
+    "name": "Create",
+    "src": "inertia/pages/Items/Create.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Items/Edit.vue": {
+    "file": "Edit-gQCcaliz.js",
+    "name": "Edit",
+    "src": "inertia/pages/Items/Edit.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Items/Index.vue": {
+    "file": "Index-BI6CZi8z.js",
+    "name": "Index",
+    "src": "inertia/pages/Items/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Resources/Create.vue": {
+    "file": "Create-q8SzfDqK.js",
+    "name": "Create",
+    "src": "inertia/pages/Resources/Create.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Resources/Edit.vue": {
+    "file": "Edit-BuNvZwRt.js",
+    "name": "Edit",
+    "src": "inertia/pages/Resources/Edit.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Resources/Index.vue": {
+    "file": "Index-B2pyLpLd.js",
+    "name": "Index",
+    "src": "inertia/pages/Resources/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Layout-BiShtRex.js",
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/Tes/Index.vue": {
+    "file": "Index-DjoEx_GU.js",
+    "name": "Index",
+    "src": "inertia/pages/Tes/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "Index-HYH5H266.css"
+    ]
+  },
+  "inertia/pages/errors/not_found.vue": {
+    "file": "not_found-Cm9TuFoz.js",
+    "name": "not_found",
+    "src": "inertia/pages/errors/not_found.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/errors/server_error.vue": {
+    "file": "server_error-DoEbDj6p.js",
+    "name": "server_error",
+    "src": "inertia/pages/errors/server_error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "inertia/pages/home.vue": {
+    "file": "home-8BL8g-S6.js",
+    "name": "home",
+    "src": "inertia/pages/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "inertia/app/app.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "primeicons-DMOk5skT.eot",
+    "src": "node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "primeicons-Dr5RGzOO.svg",
+    "src": "node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "primeicons-MpK4pl85.ttf",
+    "src": "node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "primeicons-WjwUDZjB.woff",
+    "src": "node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "primeicons-C6QP2o4f.woff2",
+    "src": "node_modules/primeicons/fonts/primeicons.woff2"
+  }
+}
