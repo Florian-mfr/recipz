@@ -223,6 +223,7 @@ const saveCraftList = () => {
       quantity: item.quantity
     })),
     redirectRoute: props.redirectRoute,
+    redirectRouteOptions: props.redirectRouteOptions
   }, {
     preserveScroll: props.redirectRouteOptions?.preserveScroll || false,
     onSuccess: () => {

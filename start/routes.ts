@@ -330,7 +330,6 @@ router
         const updatedItems = transformArrayToObject(items, 'quantity')
         await craftingList.related('items').sync(updatedItems)
 
-        console.log('redirectRoute', redirectRoute)
         return response
           .redirect()
           .toRoute(redirectRoute || 'crafting-list.index', redirectRouteOptions?.params || {})
